@@ -25,7 +25,7 @@ feed the filename to wordcheck() function in dangerfile.js
 ```js
 // dangerfile.js
 import wordcheck from 'danger-plugin-wordcheck'
-wordcheck('./wordcheck.txt')
+schedule(wordcheck('./wordcheck.txt'))
 ```
 ## Changelog
 
@@ -33,4 +33,4 @@ See the GitHub [release history](https://github.com/toshiya/danger-plugin-wordch
 
 ## Contributing
 
-See [CONTRIBUTING.md](contributing.md).
+See [CONTRIBUTING.md](CONTRIBUTING.md).
