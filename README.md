@@ -23,7 +23,6 @@ echo "TODO\ndebugger\n" > wordcheck.txt
 
 feed the filename to wordcheck() function in dangerfile.js
 ```js
-// dangerfile.js
 var wordcheck = require('danger-plugin-wordcheck').default
 schedule(wordcheck("./.github/WORDCHECK.txt"))
 ```
